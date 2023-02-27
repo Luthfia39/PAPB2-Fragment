@@ -16,6 +16,17 @@
         android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
         android:textStyle="bold"
         android:textAlignment="center"/>
+
+<!--    FRAGMENT STATIS-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment"-->
+<!--        android:name="com.example.fragmentapplication.DescFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/title"-->
+<!--        tools:layout="@layout/fragment_desc"/>-->
+
+<!--    FRAGMENT DINAMIS-->
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"

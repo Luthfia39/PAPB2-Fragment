@@ -16,14 +16,13 @@
         android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
         android:textStyle="bold"
         android:textAlignment="center"/>
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.fragmentapplication.DescFragment"
+    <FrameLayout
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/title"
-        tools:layout="@layout/fragment_desc"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"/>
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
